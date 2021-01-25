@@ -1,0 +1,28 @@
+{
+    "name": "",
+    "tonic": "",
+    "mode": "",
+    "timeSignature": "",
+    "measures": [
+        {
+            "firstHalf":{
+                "interval": "",
+                "modifier": ""
+            },
+            "secondHalf":{
+                "interval": "",
+                "modifier": ""
+            }
+        },
+        {
+            "firstHalf":{
+                "interval": "",
+                "modifier": ""
+            },
+            "secondHalf":{
+                "interval": "",
+                "modifier": ""
+            }
+        }
+    ]
+}
