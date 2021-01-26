@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2021_01_25_222842) do
 
   create_table "songs", force: :cascade do |t|
     t.string "name"
-    t.string "object_notation"
+    t.jsonb "properties"
     t.integer "composer_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
