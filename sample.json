@@ -1,7 +1,7 @@
 {
-    "tonic": "",
-    "mode": "",
-    "timeSignature": "",
+    "tonic": "A",
+    "mode": "Major",
+    "timeSignature": "4/4",
     "measures": [
         {
             "firstHalf":{
