@@ -3,9 +3,15 @@ class SongsController < ApplicationController
 
   # GET /songs
   def index
-    @songs = Song.all
+    if params[:composer_id]
+      @songs = Composer.find(params[:composer_id]).songs
 
-    render json: @songs
+      render json: @songs
+    else
+      @songs = Song.all
+
+      render json: @songs
+    end
   end
 
   # GET /songs/1
