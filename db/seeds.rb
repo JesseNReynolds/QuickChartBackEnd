@@ -46,11 +46,41 @@ Song.create(name: "12 Bar Blues in A", composer_id: 1, properties:
         },
         {
             "firstHalf":{
+                "interval": "1",
+                "modifier": ""
+            },
+            "secondHalf":{
+                "interval": "1",
+                "modifier": ""
+            }
+        },
+        {
+            "firstHalf":{
                 "interval": "4",
                 "modifier": ""
             },
             "secondHalf":{
                 "interval": "4",
+                "modifier": ""
+            }
+        },
+        {
+            "firstHalf":{
+                "interval": "4",
+                "modifier": ""
+            },
+            "secondHalf":{
+                "interval": "4",
+                "modifier": ""
+            }
+        },
+        {
+            "firstHalf":{
+                "interval": "1",
+                "modifier": ""
+            },
+            "secondHalf":{
+                "interval": "1",
                 "modifier": ""
             }
         },
